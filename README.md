@@ -13,9 +13,9 @@ This project is an implementation of a Hangman game using Python.
 # Usage Instructions
 
 # File Structure of the Project
-** milestone_3.py ** has two functions. Ask_for_input which validates the user input to ensure a single letter is entered. If a single letter is entered it then calls the check_guess function to see if the letter is in the randomly selected word.
+**milestone_3.py** has two functions. Ask_for_input which validates the user input to ensure a single letter is entered. If a single letter is entered it then calls the check_guess function to see if the letter is in the randomly selected word.
 
-** milestone_4.py ** creates a Hangman class with the following attributes:
+**milestone_4.py** creates a Hangman class with the following attributes:
 1. word: The word to be guessed, picked randomly from the word_list. 
 2. word_guessed: list - A list of the letters of the word, with _ for each letter not yet guessed. For example, if the word is 'apple', the word_guessed list would be ['_', '_', '_', '_', '_']. If the player guesses 'a', the list would be ['a', '_', '_', '_', '_']
 3. num_letters: int - The number of UNIQUE letters in the word that have not been guessed yet
