@@ -63,10 +63,16 @@ class Hangman():
             break
 
 def play_game(word_list):
+    """
+        Function to play the game.
+        This continues until the number of lives = 0 or the word is guessed.
+        Args:
+            word_list (list): List of words.
+        
+    """
     num_lives = 5
     game = Hangman(word_list, num_lives)
     while True:
-        print("Again")
         if game.num_lives == 0:
             print("You lost!")
             break
